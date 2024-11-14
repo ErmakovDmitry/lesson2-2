@@ -1,4 +1,4 @@
-package main
+package float64utils
 
 func Add(numbers ...float64) float64 {
 	var sum float64 = 0

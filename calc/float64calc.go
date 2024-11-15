@@ -1,6 +1,6 @@
-package conv
+package calc
 
-func Add(numbers ...float64) float64 {
+func Add64(numbers ...float64) float64 {
 	var sum float64 = 0
 
 	for _, number := range numbers {
@@ -10,7 +10,7 @@ func Add(numbers ...float64) float64 {
 	return sum
 }
 
-func Sub(minuend float64, subtrahends ...float64) float64 {
+func Sub64(minuend float64, subtrahends ...float64) float64 {
 	var result float64 = minuend
 
 	for _, subtrahend := range subtrahends {
